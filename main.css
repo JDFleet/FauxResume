@@ -88,6 +88,10 @@ section{
 	cursor: pointer;
 }
 
+.selected{
+	color: white;
+	opacity: 1;
+}
 /*========About======*/
 
 h1{
@@ -172,6 +176,11 @@ h1 span{
 	cursor: pointer;
 }
 
+#workflow-list i{
+	width: 100%;
+	padding: .5% 0;
+}
+
 /*=======Awards====*/
 
 .medal{
@@ -184,7 +193,7 @@ h1 span{
 	padding-bottom: 2%;
 }
 
-.medal-text{
+.icon-text{
 	color: grey;
 	font-size: 1em;
 	padding-left: 1.5%;
